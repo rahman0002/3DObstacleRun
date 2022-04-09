@@ -2108,3 +2108,63 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.09-16.04.21:549][830]AssetCheck: New page: Asset Save: multiple assets
 [2022.04.09-16.04.21:549][830]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
 [2022.04.09-16.04.21:549][830]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.04.09-16.09.02:006][565]Cmd: TRANSACTION UNDO
+[2022.04.09-16.09.02:006][565]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2022.04.09-16.09.02:067][565]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2022.04.09-16.09.15:323][ 21]Cmd: TRANSACTION UNDO
+[2022.04.09-16.09.15:323][ 21]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2022.04.09-16.09.15:343][ 21]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2022.04.09-16.09.30:048][668]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2022.04.09-16.10.06:736][838]Cmd: TRANSACTION UNDO
+[2022.04.09-16.10.06:736][838]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2022.04.09-16.10.06:759][838]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2022.04.09-16.10.31:575][599]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2022.04.09-16.10.31:640][599]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2022.04.09-16.10.31:643][599]LogTexture: Display: Building textures: Texture2D_406 (BGRA8, 32X32)
+[2022.04.09-16.10.31:643][599]LogTexture: Display: Building textures: Texture2D_405 (BGRA8, 32X32)
+[2022.04.09-16.10.31:644][599]LogTexture: Display: Building textures: Texture2D_390 (BGRA8, 32X32)
+[2022.04.09-16.10.31:644][599]LogTexture: Display: Building textures: Texture2D_389 (BGRA8, 32X32)
+[2022.04.09-16.10.31:645][599]LogTexture: Display: Building textures: Texture2D_374 (BGRA8, 32X32)
+[2022.04.09-16.10.31:645][599]LogTexture: Display: Building textures: Texture2D_373 (BGRA8, 32X32)
+[2022.04.09-16.10.31:645][599]LogTexture: Display: Building textures: Texture2D_358 (BGRA8, 32X32)
+[2022.04.09-16.10.31:646][599]LogTexture: Display: Building textures: Texture2D_357 (BGRA8, 32X32)
+[2022.04.09-16.10.31:647][599]LogTexture: Display: Building textures: Texture2D_342 (BGRA8, 32X32)
+[2022.04.09-16.10.31:647][599]LogTexture: Display: Building textures: Texture2D_341 (BGRA8, 32X32)
+[2022.04.09-16.10.32:537][599]LogSavePackage: Moving '../../../../Unreal Engine/3DGameObstableRun/3DGame_V1/Saved/ThirdPersonExampleMap6DC173654BF09D30891462905028D465.tmp' to '../../../../Unreal Engine/3DGameObstableRun/3DGame_V1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.04.09-16.10.33:363][599]LogSavePackage: Moving '../../../../Unreal Engine/3DGameObstableRun/3DGame_V1/Saved/ThirdPersonExampleMap_BuiltDataE797212F4E76178205260E9F4F78DD8F.tmp' to '../../../../Unreal Engine/3DGameObstableRun/3DGame_V1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.04.09-16.10.33:386][599]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.09-16.10.33:386][599]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.04.09-16.10.33:386][599]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Content: 'D:/UE_4.26/Engine/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/2D/Paper2D/Content: 'D:/UE_4.26/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content: 'D:/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/FX/Niagara/Content: 'D:/UE_4.26/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content: 'D:/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content: 'D:/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content: 'D:/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:478][910]SourceControl: fatal: D:/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/Unreal Engine/3DGameObstableRun/3DGame_V1'
+[2022.04.09-16.10.37:861][910]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.04.09-16.10.38:798][910]LogSavePackage: Moving '../../../../Unreal Engine/3DGameObstableRun/3DGame_V1/Saved/ThirdPersonExampleMap95BEB5A1448E92C1D4ED288E26F1C6D8.tmp' to '../../../../Unreal Engine/3DGameObstableRun/3DGame_V1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.04.09-16.10.38:803][910]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.947
+[2022.04.09-16.10.39:527][910]LogSavePackage: Moving '../../../../Unreal Engine/3DGameObstableRun/3DGame_V1/Saved/ThirdPersonExampleMap_BuiltData8727ABD14DFAFC49AEF1C1A8CB77C53C.tmp' to '../../../../Unreal Engine/3DGameObstableRun/3DGame_V1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.04.09-16.28.56:068][910]LogSlate: Window 'Submit Files' being destroyed
+[2022.04.09-16.28.59:041][910]LogSourceControl: commit successful: [master 7635a5c] small map changes
+[2022.04.09-16.28.59:118][910]SourceControl: [master 7635a5c] small map changes
+[2022.04.09-16.28.59:118][910]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2022.04.09-16.28.59:144][910]SourceControl: Commited [master 7635a5c] small map changes.
+[2022.04.09-16.28.59:173][911]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.09-16.28.59:173][911]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.04.09-16.28.59:173][911]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
