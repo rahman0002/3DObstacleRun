@@ -811,3 +811,15 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.15-18.38.47:909][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
 [2022.04.15-18.38.47:963][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2022.04.15-18.38.48:338][  2]LogSlate: Took 0.008624 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.04.15-18.39.56:947][681]LogSlate: Window 'Source Control Login' being destroyed
+[2022.04.15-18.39.58:410][802]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.04.15-18.39.58:479][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2022.04.15-18.39.59:572][802]LogSavePackage: Moving '../../../../3DObstacleRun_V2/Saved/ThirdPersonExampleMap52583F0749222622F0BBA69A4B68E77F.tmp' to '../../../../3DObstacleRun_V2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.04.15-18.39.59:572][802]LogFileManager: Warning: DeleteFile was unable to delete '../../../../3DObstacleRun_V2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2022.04.15-18.40.00:073][802]LogFileManager: Error: Error deleting file '../../../../3DObstacleRun_V2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'.
+[2022.04.15-18.40.00:073][802]LogSavePackage: Error: Error saving '../../../../3DObstacleRun_V2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.04.15-18.40.00:172][802]EditorErrors: New page: Save Output
+[2022.04.15-18.40.00:172][802]EditorErrors: Warning: Error saving '../../../../3DObstacleRun_V2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.04.15-18.40.00:242][802]LogSlate: Took 0.006784 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.04.15-18.40.03:530][ 41]LogSlate: Window 'Message Log' being destroyed
+[2022.04.15-18.40.03:533][ 41]LogSlate: Window 'Message Log' being destroyed
