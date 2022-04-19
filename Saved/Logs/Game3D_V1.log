@@ -587,3 +587,677 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.19-12.43.29:313][  0]SourceControl: Source control is disabled
 [2022.04.19-12.43.29:480][  0]SourceControl: Source control is disabled
 [2022.04.19-12.43.29:490][  0]LogUProjectInfo: Found projects:
+[2022.04.19-12.43.32:192][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.04.19-12.43.32:482][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.04.19-12.43.32:482][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.04.19-12.43.33:992][  0]LogOcInput: OculusInput pre-init called
+[2022.04.19-12.43.34:039][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2022.04.19-12.43.34:039][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2022.04.19-12.43.34:102][  0]LogCollectionManager: Loaded 0 collections in 0.001379 seconds
+[2022.04.19-12.43.34:392][  0]LogFileCache: Scanning file cache for directory 'D:/3DObstacleRun/Saved/Collections/' took 0.02s
+[2022.04.19-12.43.34:392][  0]LogFileCache: Scanning file cache for directory 'D:/3DObstacleRun/Content/Developers/Home/Collections/' took 0.00s
+[2022.04.19-12.43.34:392][  0]LogFileCache: Scanning file cache for directory 'D:/3DObstacleRun/Content/Collections/' took 0.00s
+[2022.04.19-12.43.38:243][  0]LogAutomationTest: Warning: Smoke tests took >2s to run (2.72s). 'FAutomationTestAttemptToFindUninitializedScriptStructMembers' took 2402ms. SmokeFilter tier tests should take less than 1ms. Please optimize or move 'FAutomationTestAttemptToFindUninitializedScriptStructMembers' to a slower tier than SmokeFilter.
+[2022.04.19-12.43.38:821][  0]LogEngine: Initializing Engine...
+[2022.04.19-12.43.39:065][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.04.19-12.43.39:068][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.04.19-12.43.39:313][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.026 s
+[2022.04.19-12.43.40:186][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.04.19-12.43.41:210][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.04.19-12.43.42:478][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.04.19-12.43.42:605][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.04.19-12.43.42:605][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.04.19-12.43.42:642][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-12.43.42:642][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-12.43.42:642][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-12.43.42:642][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-12.43.42:642][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-12.43.42:642][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-12.43.42:642][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-12.43.42:651][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-12.43.42:880][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.19-12.43.42:881][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-12.43.49:909][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.19-12.43.49:909][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.04.19-12.43.49:909][  0]LogAudioMixer: Display: 2: FrontCenter
+[2022.04.19-12.43.49:909][  0]LogAudioMixer: Display: 3: LowFrequency
+[2022.04.19-12.43.49:909][  0]LogAudioMixer: Display: 4: BackLeft
+[2022.04.19-12.43.49:909][  0]LogAudioMixer: Display: 5: BackRight
+[2022.04.19-12.43.49:909][  0]LogAudioMixer: Display: 6: SideLeft
+[2022.04.19-12.43.49:909][  0]LogAudioMixer: Display: 7: SideRight
+[2022.04.19-12.43.50:742][  0]LogAudioMixer: Display: Using Audio Device Speakers (2- Elo 7.1 USB)
+[2022.04.19-12.43.50:995][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-12.43.51:051][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-12.43.51:051][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-12.43.51:064][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-12.43.51:078][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-12.43.51:090][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.04.19-12.43.51:104][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-12.43.51:104][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.19-12.43.51:104][  0]LogInit: FAudioDevice initialized.
+[2022.04.19-12.43.51:237][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.04.19-12.43.51:268][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.04.19-12.43.53:765][  0]LogDerivedDataCache: Saved boot cache 2.49s 77MB C:/Users/zeta6/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2022.04.19-12.43.53:766][  0]LogInit: Texture streaming: Enabled
+[2022.04.19-12.43.53:772][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2022.04.19-12.43.53:774][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.04.19-12.43.53:774][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.04.19-12.43.53:776][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.04.19-12.43.53:929][  0]LogInit: Transaction tracking system initialized
+[2022.04.19-12.43.54:249][  0]BlueprintLog: New page: Editor Load
+[2022.04.19-12.43.55:738][  0]LocalizationService: Localization service is disabled
+[2022.04.19-12.43.56:385][  0]TimingProfiler: Initialize
+[2022.04.19-12.43.56:386][  0]TimingProfiler: OnSessionChanged
+[2022.04.19-12.43.56:387][  0]LoadingProfiler: Initialize
+[2022.04.19-12.43.56:387][  0]LoadingProfiler: OnSessionChanged
+[2022.04.19-12.43.56:387][  0]NetworkingProfiler: Initialize
+[2022.04.19-12.43.56:387][  0]NetworkingProfiler: OnSessionChanged
+[2022.04.19-12.43.56:387][  0]MemoryProfiler: Initialize
+[2022.04.19-12.43.56:387][  0]MemoryProfiler: OnSessionChanged
+[2022.04.19-12.44.00:105][  0]LogFileCache: Scanning file cache for directory 'D:/3DObstacleRun/Content/' took 0.03s
+[2022.04.19-12.44.00:105][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2022.04.19-12.44.00:105][  0]LogCook: Display: Mobile HDR setting 1
+[2022.04.19-12.44.03:791][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.04.19-12.44.04:176][  0]SourceControl: Source control is disabled
+[2022.04.19-12.44.04:204][  0]LogUnrealEdMisc: Loading editor; pre map load, took 112.925
+[2022.04.19-12.44.04:366][  0]Cmd: MAP LOAD FILE="../../../../3DObstacleRun/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.04.19-12.44.04:426][  0]LightingResults: New page: Lighting Build
+[2022.04.19-12.44.04:666][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-12.44.04:919][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-12.44.05:051][  0]MapCheck: New page: Map Check
+[2022.04.19-12.44.05:051][  0]LightingResults: New page: Lighting Build
+[2022.04.19-12.44.06:194][  0]LogUObjectHash: Compacting FUObjectHashTables data took  14.84ms
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_103 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_104 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_100 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_101 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_107 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_102 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_106 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_108 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_105 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_110 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_112 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_111 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_114 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_113 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_116 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_115 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_109 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 64X64)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_24 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_25 (AutoDXT, 64X64)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_26 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_27 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_30 (AutoDXT, 64X64)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_29 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_28 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_31 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_33 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogTexture: Display: Building textures: HQ_Lightmap0_32 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:618][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/0/7/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_F1D2FCCA437061927A35BA85B86F7__D39FE9A075EE2735E6781DABDA5383D81BEBA073.udd.
+[2022.04.19-12.44.12:618][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/8/3/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_8E06CD5A44AB6DB97320588C63B9C__FD25FC7D86949211A7D2E6D5C8E265548C4E1F69.udd.
+[2022.04.19-12.44.12:618][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/0/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_8E06CD5A44AB6DB97320588C63B9C__9DB96C64EB7903100A0DE4CABE8BDF6CC9CACA6C.udd.
+[2022.04.19-12.44.12:619][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/1/6/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_AD6D79E943364B218885B7BD709C8__C41FAE4F5AD9FE0F15E1AD158B08D5D11A506001.udd.
+[2022.04.19-12.44.12:619][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/0/9/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_57FAC957478C7B1740E987A3494B6__2943E6FB25C5AC65490119F25C9C4B4AEFC766A4.udd.
+[2022.04.19-12.44.12:619][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/0/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_0E71D7E140DD303743DC8CB27BB66__84F6B4FC85CC57F2424FA4DB97F701F0F8034285.udd.
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_34 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_37 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/8/7/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_BD4EE5944BFF3BDA26B34B84B33C7__E7F586686EF742D70230D261989E1FDDF011D7AA.udd.
+[2022.04.19-12.44.12:619][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/5/4/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_BD4EE5944BFF3BDA26B34B84B33C7__8E37051D16948F61423DE3ABC15D15BB112430C1.udd.
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_38 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_35 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_36 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_39 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_42 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_40 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_46 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_48 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_47 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_44 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_49 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_45 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_43 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_41 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_55 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_58 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_51 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_57 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_53 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_56 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_54 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_52 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_50 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_59 (AutoDXT, 64X64)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_60 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_61 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_63 (AutoDXT, 64X64)
+[2022.04.19-12.44.12:619][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/5/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_4DB6256C4CEB6FB49175B2BCD8418__B40FF9869A06B14766EF3A369AE937C81959BA39.udd.
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_62 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_67 (AutoDXT, 64X64)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_64 (AutoDXT, 64X64)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_66 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_65 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_70 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_69 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_72 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_73 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_74 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_75 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_76 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_68 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_80 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_78 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_79 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_71 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_81 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/8/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_34237109432BF3EEC12E47AEF646E__8AA14943D673B3F6B72AA10025E625484CAC077B.udd.
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_77 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_82 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_83 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_84 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_87 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_86 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_91 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_92 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_90 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_93 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_94 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_95 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_96 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_97 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_98 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_85 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_89 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/8/3/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_6A1D7DAA4ED785254A65F986ADB80__59AAFE060A5804322885401A078B153D19CBC3E5.udd.
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_88 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap0_99 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Warning: The data retrieved from the derived data cache for the texture LightMapTexture2D /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData:HQ_Lightmap1_117 was invalid. The texture will be rebuild.
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap1_117 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap1_119 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:619][  0]LogTexture: Display: Building textures: HQ_Lightmap1_120 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_121 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:620][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/4/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_65DE45AC4435C4F6EB9973B5FFEE4__27F93957B5994D0264034665ED224E411B0A7151.udd.
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_122 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_118 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_123 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_124 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_125 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_126 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_128 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_127 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_129 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_130 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_135 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_131 (AutoDXT, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_133 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_134 (AutoDXT, 64X64)
+[2022.04.19-12.44.12:620][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/6/7/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_E910C7B545F962B88A046CA99EB7C__C5055CBD46CC07C3B8EFADE5D2F9513BF9394676.udd.
+[2022.04.19-12.44.12:620][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/6/2/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_BAC77B404AA6F6BBFDEB91A01B399__4D0D83906394B36363924206D6512CBA7EBD2C28.udd.
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_137 (AutoDXT, 64X64)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_101 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_100 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_102 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_103 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/1/1/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_0D14998E4BFA209A6E85F1A26DA9C__5C1B5CDBA9B949623985177A2290BC025C9766E8.udd.
+[2022.04.19-12.44.12:620][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/5/TEXTURE_2D528FAD496A42E180956107C6FFBD67_DXT1_13E644C74217EB3A09D7F1AAECC8C2F4__13CAA8857C1AC0974A3D1B1C7E0C5B54358E5BD6.udd.
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_105 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_104 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/1/5/TEXTURE_2D528FAD496A42E180956107C6FFBD67_DXT1_08699E264F962E11096AF492D0DEE1A9__6118BD30CAE6F6E6BF0C88C5520387EFE00BAB1E.udd.
+[2022.04.19-12.44.12:620][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/7/TEXTURE_2D528FAD496A42E180956107C6FFBD67_DXT1_13E644C74217EB3A09D7F1AAECC8C2F4__6C450A52BE3ACC90C705722CFD315A8350DD5280.udd.
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_107 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_108 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_106 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_112 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_110 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_109 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_113 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_114 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_115 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_111 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_116 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/4/6/TEXTURE_2D528FAD496A42E180956107C6FFBD67_DXT1_AE75994D4668EF7FBC28F38F3E6BE483__7A077C558D3549A3E58305D1953C85FBBAC4035B.udd.
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_19 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_20 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_18 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_22 (DXT1, 64X64)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_21 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_23 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_24 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/1/9/TEXTURE_2D528FAD496A42E180956107C6FFBD67_DXT1_FCBDF29440529DDADDF1ACAD965D8E57__C5CE1728A651E7D6016CFA1579C84D35805646FC.udd.
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_25 (DXT1, 64X64)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_26 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_27 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_28 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/5/2/TEXTURE_2D528FAD496A42E180956107C6FFBD67_DXT1_FCBDF29440529DDADDF1ACAD965D8E57__7104DFAC0310F420C828DD5DBCEF1DF8E6364E22.udd.
+[2022.04.19-12.44.12:620][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/7/6/TEXTURE_2D528FAD496A42E180956107C6FFBD67_DXT1_FFD9AAA344372ABE2B9971B023C2E15C__D938B1049C933EFA276B39FC564089DF0D923BC9.udd.
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_29 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_31 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/9/5/TEXTURE_2D528FAD496A42E180956107C6FFBD67_DXT1_5796D75A48B583664F547D96D50DC331__5FF252670978E4A141AC63E7753E5E3969DCF4A3.udd.
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_34 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_35 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_36 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_37 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_38 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_39 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_40 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_41 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_42 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_43 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_44 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_45 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_46 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_47 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_48 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_49 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_50 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_51 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_52 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_53 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_54 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_55 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_56 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_57 (DXT1, 256X256)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_58 (DXT1, 128X128)
+[2022.04.19-12.44.12:620][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_60 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_62 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_63 (DXT1, 64X64)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_64 (DXT1, 64X64)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_61 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_65 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_66 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_68 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_69 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_67 (DXT1, 64X64)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_70 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_71 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_72 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_73 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_75 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_74 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_76 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_77 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_78 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_79 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_80 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_81 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_82 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_83 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_84 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_85 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_86 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_87 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_88 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_89 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_90 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_92 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_93 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_95 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_94 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_91 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_96 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_97 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_98 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_120 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_99 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_119 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_121 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_117 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_123 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_124 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/9/5/TEXTURE_2D528FAD496A42E180956107C6FFBD67_DXT1_D64634B747895068FC00EFB4EBB1FF56__A286EB7D8EE1F735C5C3625DC4EAE51CC6AA01FC.udd.
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_118 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_125 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_122 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_126 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_128 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_127 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_129 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_130 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_131 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_132 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_133 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_135 (DXT1, 128X128)
+[2022.04.19-12.44.12:621][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/9/5/TEXTURE_2D528FAD496A42E180956107C6FFBD67_DXT1_E5B6DAEA445E028EC3A4ECA338C6F0D7__2E7ACBF523DDDA4EEA4102BD8E4EF0A232F14AC5.udd.
+[2022.04.19-12.44.12:621][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/5/2/TEXTURE_2D528FAD496A42E180956107C6FFBD67_DXT1_E14A44DC43F276E5350C079F62CBF3A4__0FD55AEEEEC8521C0EF0341D63641A438C382860.udd.
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_138 (DXT1, 64X64)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: SkyOcclusion0_10 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: SkyOcclusion0_104 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: SkyOcclusion0_105 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: SkyOcclusion0_100 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: SkyOcclusion0_101 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: SkyOcclusion0_102 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: SkyOcclusion0_103 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: SkyOcclusion0_106 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: SkyOcclusion0_11 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:621][  0]LogTexture: Display: Building textures: SkyOcclusion0_109 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_108 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_112 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_113 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_114 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_107 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_115 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_116 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_12 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_13 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_14 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_15 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_16 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_17 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_18 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_19 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_20 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_110 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_21 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_111 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_22 (AutoDXT, 64X32)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_23 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_24 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_25 (AutoDXT, 64X32)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_26 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_30 (AutoDXT, 64X32)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_27 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_34 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_28 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_35 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_31 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_36 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_37 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_38 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_32 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_29 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_39 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_33 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_40 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_41 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_43 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_47 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_48 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_49 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_42 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_46 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_51 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_50 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_45 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_53 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_54 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_52 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_55 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_56 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_57 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_59 (AutoDXT, 64X32)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_58 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_44 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_60 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_61 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/8/6/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_C623E128419BEBB1C2E9DFB7F1932__107869589962DA8907BC7DE4165B8D8B41BB07D3.udd.
+[2022.04.19-12.44.12:622][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/7/8/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_4028CC2641EFF401443326949F91B__699337F870A81884E9BEBE1F780CE66F3A7CA4E8.udd.
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_62 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_65 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_66 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/5/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_3B866EB9427D7159218F76ADA3C38__8564C6C4129648C4A5012E1EF66ACCB5872C2371.udd.
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_63 (AutoDXT, 64X32)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_68 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_69 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_64 (AutoDXT, 64X32)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_70 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_71 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_72 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_73 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_74 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_75 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_77 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_76 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_79 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_78 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_80 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_8 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_81 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_82 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_83 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_84 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_85 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_86 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_87 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_88 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_89 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_9 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_90 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:622][  0]LogTexture: Display: Building textures: SkyOcclusion0_91 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion0_92 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion0_93 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion0_94 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion0_95 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:623][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/9/5/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_8F1B1754426D964176562EBBBE490__A53F6C368A746423E7C638ED315791905EE22266.udd.
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion0_96 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/2/6/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_069860F44D5BD98A7A467F9C27D63__CA950B8F589BAEE07652C9CFF7DFB81450B3A478.udd.
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion0_97 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion0_98 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion0_99 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_117 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_118 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_119 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_120 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_121 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_122 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_123 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_124 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_125 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_126 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_127 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_129 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_130 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_128 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/7/2/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_9BDA94104218A15C3CAFB4A99CD41__D4F210CE315B31A331F5EA7092F6416E318E0225.udd.
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_131 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_133 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_132 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_134 (AutoDXT, 64X32)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_135 (AutoDXT, 128X64)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_136 (AutoDXT, 64X32)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_137 (AutoDXT, 64X32)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_138 (AutoDXT, 64X32)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 256X128)
+[2022.04.19-12.44.12:623][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/9/3/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_3C745839406B834A0EC891A71DCAE__F5F598E52AE958996338E13AAD22AB12405674A6.udd.
+[2022.04.19-12.44.12:623][  0]LogDerivedDataCache: C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/zeta6/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/2/1/TEXTURE_2D528FAD496A42E180956107C6FFBD67_AUTODXT_94B9B33646F44036D24A609EFB810__233D2721DD71ACAD52E1B04EDA4ACB314D9009BC.udd.
+[2022.04.19-12.44.12:921][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonExampleMap'.
+[2022.04.19-12.44.12:937][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.04.19-12.44.19:283][  0]LogMaterial: Display: Material /Game/ProjMateriel/Moss_Terrain.Moss_Terrain needed to have new flag set bUsedWithStaticLighting !
+[2022.04.19-12.44.19:310][  0]LogMaterial: Display: Missing cached shader map for material Moss_Terrain, compiling. 
+[2022.04.19-12.44.19:642][  0]MapCheck: Warning: Moss_Terrain Material /Game/ProjMateriel/Moss_Terrain.Moss_Terrain was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2022.04.19-12.44.19:693][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 21
+[2022.04.19-12.44.19:693][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 18
+[2022.04.19-12.44.19:693][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 15
+[2022.04.19-12.44.19:693][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2022.04.19-12.44.19:693][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 9
+[2022.04.19-12.44.19:693][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2022.04.19-12.44.19:693][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.04.19-12.44.23:337][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.04.19-12.44.24:110][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2022.04.19-12.44.24:174][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.04.19-12.44.24:189][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 14.897ms to complete.
+[2022.04.19-12.44.24:472][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 20.226
+[2022.04.19-12.44.26:486][  0]LogUnrealEdMisc: Total Editor Startup Time, took 135.213
+[2022.04.19-12.44.28:094][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-12.44.28:102][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-12.44.28:107][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-12.44.28:113][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-12.44.28:700][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0122 seconds. Added 3628 classes and 872 folders.
+[2022.04.19-12.44.29:055][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.04.19-12.44.29:151][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.04.19-12.44.29:151][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:151][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.04.19-12.44.29:186][  0]LogPakFile: OnPakFileMounted2Time == 0.034271
+[2022.04.19-12.44.29:228][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.04.19-12.44.29:228][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:228][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.04.19-12.44.29:228][  0]LogPakFile: OnPakFileMounted2Time == 0.034275
+[2022.04.19-12.44.29:254][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2022.04.19-12.44.29:254][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:254][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2022.04.19-12.44.29:254][  0]LogPakFile: OnPakFileMounted2Time == 0.034279
+[2022.04.19-12.44.29:266][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.04.19-12.44.29:266][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:266][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.04.19-12.44.29:266][  0]LogPakFile: OnPakFileMounted2Time == 0.034283
+[2022.04.19-12.44.29:268][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.04.19-12.44.29:268][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:268][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.04.19-12.44.29:268][  0]LogPakFile: OnPakFileMounted2Time == 0.034284
+[2022.04.19-12.44.29:269][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.04.19-12.44.29:269][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:269][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.04.19-12.44.29:269][  0]LogPakFile: OnPakFileMounted2Time == 0.034285
+[2022.04.19-12.44.29:300][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.04.19-12.44.29:300][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:300][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.04.19-12.44.29:301][  0]LogPakFile: OnPakFileMounted2Time == 0.034289
+[2022.04.19-12.44.29:324][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.04.19-12.44.29:324][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:324][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.04.19-12.44.29:324][  0]LogPakFile: OnPakFileMounted2Time == 0.034293
+[2022.04.19-12.44.29:342][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.04.19-12.44.29:342][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:342][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.04.19-12.44.29:342][  0]LogPakFile: OnPakFileMounted2Time == 0.034298
+[2022.04.19-12.44.29:354][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.04.19-12.44.29:354][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:354][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.04.19-12.44.29:354][  0]LogPakFile: OnPakFileMounted2Time == 0.034301
+[2022.04.19-12.44.29:355][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.04.19-12.44.29:355][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:355][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.04.19-12.44.29:355][  0]LogPakFile: OnPakFileMounted2Time == 0.034305
+[2022.04.19-12.44.29:357][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.04.19-12.44.29:357][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:357][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.04.19-12.44.29:357][  0]LogPakFile: OnPakFileMounted2Time == 0.034306
+[2022.04.19-12.44.29:359][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.04.19-12.44.29:359][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:359][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.04.19-12.44.29:359][  0]LogPakFile: OnPakFileMounted2Time == 0.034307
+[2022.04.19-12.44.29:426][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.04.19-12.44.29:427][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:427][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.04.19-12.44.29:427][  0]LogPakFile: OnPakFileMounted2Time == 0.034313
+[2022.04.19-12.44.29:428][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.04.19-12.44.29:428][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:428][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.04.19-12.44.29:428][  0]LogPakFile: OnPakFileMounted2Time == 0.034317
+[2022.04.19-12.44.29:429][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.04.19-12.44.29:429][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:429][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.04.19-12.44.29:429][  0]LogPakFile: OnPakFileMounted2Time == 0.034318
+[2022.04.19-12.44.29:432][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.04.19-12.44.29:432][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:432][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.04.19-12.44.29:432][  0]LogPakFile: OnPakFileMounted2Time == 0.034320
+[2022.04.19-12.44.29:433][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.04.19-12.44.29:433][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:433][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.04.19-12.44.29:433][  0]LogPakFile: OnPakFileMounted2Time == 0.034321
+[2022.04.19-12.44.29:435][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.04.19-12.44.29:435][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:435][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.04.19-12.44.29:435][  0]LogPakFile: OnPakFileMounted2Time == 0.034322
+[2022.04.19-12.44.29:436][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.04.19-12.44.29:436][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:436][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.04.19-12.44.29:436][  0]LogPakFile: OnPakFileMounted2Time == 0.034323
+[2022.04.19-12.44.29:437][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.04.19-12.44.29:437][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:437][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.04.19-12.44.29:437][  0]LogPakFile: OnPakFileMounted2Time == 0.034324
+[2022.04.19-12.44.29:439][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.04.19-12.44.29:439][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:439][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.04.19-12.44.29:439][  0]LogPakFile: OnPakFileMounted2Time == 0.034326
+[2022.04.19-12.44.29:441][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2022.04.19-12.44.29:441][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:441][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2022.04.19-12.44.29:441][  0]LogPakFile: OnPakFileMounted2Time == 0.034327
+[2022.04.19-12.44.29:443][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.04.19-12.44.29:443][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:443][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.04.19-12.44.29:443][  0]LogPakFile: OnPakFileMounted2Time == 0.034328
+[2022.04.19-12.44.29:444][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.04.19-12.44.29:444][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:444][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.04.19-12.44.29:444][  0]LogPakFile: OnPakFileMounted2Time == 0.034329
+[2022.04.19-12.44.29:481][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.04.19-12.44.29:481][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.19-12.44.29:481][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.04.19-12.44.29:481][  0]LogPakFile: OnPakFileMounted2Time == 0.034333
+[2022.04.19-12.44.30:350][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.04.19-12.44.30:424][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2022.04.19-12.44.31:069][  0]LogSlate: Took 0.012531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.04.19-12.44.31:255][  0]LogSlate: Took 0.006067 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.04.19-12.44.31:323][  0]LogSlate: Took 0.007430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.04.19-12.44.32:117][  0]LogRenderer: Reallocating scene render targets to support 1084x536 Format 10 NumSamples 1 (Frame:1).
+[2022.04.19-12.44.33:339][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.04.19-12.44.33:339][  0]LogInput: Warning: Action Jump uses invalid key OculusGo_Left_Trigger_Click.
+[2022.04.19-12.44.33:339][  0]LogInput: Warning: Action ResetVR uses invalid key OculusGo_Left_Trackpad_Click.
+[2022.04.19-12.44.33:339][  0]LogInput: Warning: Use -RemoveInvalidKeys to remove instances of these keys from the action mapping.
+[2022.04.19-12.44.33:339][  0]LogLoad: (Engine Initialization) Total time: 142.06 seconds
+[2022.04.19-12.44.33:339][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.04.19-12.44.33:340][  0]LogInit: First time updating LLM stats...
+[2022.04.19-12.44.34:125][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.04.19-12.44.35:691][  2]LogAssetRegistry: Asset discovery search completed in 106.4102 seconds
+[2022.04.19-12.44.35:692][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2022.04.19-12.44.36:227][  2]LogSlate: Took 0.029596 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.04.19-12.44.40:173][410]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2022.04.19-12.44.42:287][410]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2022.04.19-12.44.52:295][394]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.04.19-12.44.52:368][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.04.19-12.44.54:000][394]LogSavePackage: Moving '../../../../3DObstacleRun/Saved/ThirdPersonExampleMap7F1FE5D04C955B11AF58E68C47030CAA.tmp' to '../../../../3DObstacleRun/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.04.19-12.44.54:083][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData" FILE="../../../../3DObstacleRun/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2022.04.19-12.44.55:323][394]LogSavePackage: Moving '../../../../3DObstacleRun/Saved/ThirdPersonExampleMap_BuiltDataC640272C4CCDC3D28E73D985B66BC629.tmp' to '../../../../3DObstacleRun/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.04.19-12.44.55:380][394]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.19-12.44.55:381][394]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.04.19-12.44.55:403][394]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.04.19-12.45.06:944][490]LogSlate: Window 'Source Control Login' being destroyed
