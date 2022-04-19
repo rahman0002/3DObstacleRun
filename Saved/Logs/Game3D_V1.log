@@ -578,3 +578,12 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.19-12.43.18:638][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
 [2022.04.19-12.43.18:649][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
 [2022.04.19-12.43.18:649][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.04.19-12.43.24:340][  0]LogPython: Using Python 3.7.7
+[2022.04.19-12.43.26:162][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.04.19-12.43.26:187][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.04.19-12.43.29:187][  0]SourceControl: Source control is disabled
+[2022.04.19-12.43.29:187][  0]SourceControl: Source control is disabled
+[2022.04.19-12.43.29:276][  0]SourceControl: Source control is disabled
+[2022.04.19-12.43.29:313][  0]SourceControl: Source control is disabled
+[2022.04.19-12.43.29:480][  0]SourceControl: Source control is disabled
+[2022.04.19-12.43.29:490][  0]LogUProjectInfo: Found projects:
